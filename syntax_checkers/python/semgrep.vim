@@ -6,7 +6,10 @@ let g:loaded_syntastic_python_semgrep_checker = 1
 let s:default_args = {
     \ 'python': "--lang python",
     \ 'javascript': "--lang javascript",
-    \ 'ruby': "--lang ruby" }
+    \ 'ruby': "--lang ruby",
+    \ 'go': "--lang go",
+    \ 'java': "--lang java",
+    \ 'typescript': "--lang typescript" }
 
 let s:save_cpo = &cpo
 set cpo&vim
