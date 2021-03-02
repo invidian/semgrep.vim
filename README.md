@@ -14,6 +14,12 @@ cp -R semgrep.vim ~/.vim/bundle/
 
 ## Configuring
 
+Add the plugin in your `.vimrc` file:
+
+```
+Plugin 'file://~/.vim/bundle/semgrep.vim'
+```
+
 Enable the Semgrep checker on specific languages:
 
 ```
