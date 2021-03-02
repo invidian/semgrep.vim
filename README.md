@@ -9,7 +9,7 @@ $ git clone https://github.com/returntocorp/semgrep.vim.git
 ```
 
 ```
-cp -R semgrep.vim ~/.vim/bundle/
+$ cp -R semgrep.vim ~/.vim/bundle/
 ```
 
 ## Configuring
